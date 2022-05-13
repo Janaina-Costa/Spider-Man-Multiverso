@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/global.css ">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="homepage.css">
     <title>Spider Man Multiverso</title>
 </head>
 <body>
     <div class="s-container">
-        <header class="s-menu">
+        <nav class="s-menu">
             <ul>
                 <li class="s-menu-links"> <a href="">Home</a> </li>
                 <li class="s-menu-links"> <a href="">Tobey Maguire</a> </li>
@@ -19,21 +19,41 @@
                 <li class="s-menu-links"> <a href="">Andrew Garfield</a> </li>
             </ul>                
             
-        </header>
+        </nav>
     
         <div class = 's-cards-group'>
-            <section>
-                <option value=""><img src="" alt=""></option>
-                <option value="">Card2</option>
-                <option value="">Card3</option>
-            </section>
-        </div>
+            <a href="#" class = 's-card'>
+                <img src="./assets/Manhattan-Bridge.png" alt="" class = 's-card__background'>
+                <img class="s-card__image" src="./assets/spider-man-01 1.png" alt="">
+                <h2 class="s-card-title">TOBEY MAGUIRE</h2>
 
-        <footer>
-            <a href="">01</a>
-            <a href="">02</a>
-            <a href="">03</a>
-        </footer>
+            </a>
+            <a href="#" class = 's-card'>
+                <img src="./assets/beco.png" alt="" class = 's-card__background'>
+                <img class="s-card__image" src="./assets/image 15.png" alt="">
+                <h2 class="s-card-title">TOM HOLLAND</h2>
+
+            </a>
+            <a href="#" class = 's-card'>
+                <img src="./assets/ferrovia.png" alt="" class = 's-card__background'>
+                <img class="s-card__image" src="./assets/image 16.png" alt="">
+                <h2 class="s-card-title">ANDREW GARFIELD</h2>
+
+            </a>
+        </div>
+        
+        <div class="s-controller">
+            <div class="s-controller-btn">
+                01
+            </div>
+            <div class="s-controller-btn">
+                02
+            </div>
+            <div class="s-controller-btn">
+                03
+            </div>
+            <div class="s-controller-line"></div>
+        </div>
     </div>
 </body>
 </html>
