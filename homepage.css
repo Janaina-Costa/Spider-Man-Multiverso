@@ -1,0 +1,45 @@
+body{
+    background: var(--primary_color);
+    color: var(--neutral-white);
+    
+}
+body::before{
+    content: '';
+    background-image: url('./assets/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.s-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 3rem;
+}
+
+.s-menu{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 48.1875rem;
+    height: 4rem;
+    font-size: 1.125rem;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+.s-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+.s-links{
+    text-transform: uppercase;
+    cursor: pointer;
+}

@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    color: var(--neutral-white);
 
 }
 
@@ -16,17 +17,5 @@
     --neutral-neutral:#FFEFEF;
     --black: #000;
 
-}
-
-body{
-    background: var(--primary_color);
-    background-image: url('./fundo.png');
-    color: var(--neutral-white);
-    background-size: cover;
-    width: 100vw;
-    height: 100%;
-    
-    
-    
 }
 
