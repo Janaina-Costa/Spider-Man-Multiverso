@@ -34,7 +34,6 @@ body::before{
     width: 48.1875rem;
     height: 4rem;
     font-size: 1.125rem;
-    font-family: 'Palanquin Dark', sans-serif;
     z-index: 1;
 }
 .s-menu ul{
